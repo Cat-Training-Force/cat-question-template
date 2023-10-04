@@ -1,0 +1,1 @@
+docker push $(cat ./config/dockerhub-image-name)

@@ -1,0 +1,1 @@
+docker rm $(cat ./config/test-container-name)
