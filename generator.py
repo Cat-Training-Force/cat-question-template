@@ -5,7 +5,7 @@ desc = '全部答对有 flag'
 submit_text = '汪！'
 
 # Six questions
-print('按照提示输入题面和答案，每个题目一行，题目和答案之间用空格隔开。')
+print('按照提示输入题面和答案，每个题目一行。')
 q1_question = input('第一题题面：')
 q1_answer = input('第一题答案：')
 q2_question = input('第二题题面：')
