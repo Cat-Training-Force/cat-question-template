@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-PORT = 80
+PORT = 1338
 SECRET_LOCATION = '/chall/secret.txt'
 ANSWER_HASH_LOCATION = '/chall/answer-hash'
 
@@ -50,7 +50,7 @@ def answer():
 
 @app.route("/")
 def main():
-    return render_template("main.html", port=PORT)
+    return render_template("main.html")
 
 if __name__ == '__main__':
     app.run(debug=False, host='0.0.0.0', port=str(PORT))

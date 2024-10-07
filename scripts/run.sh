@@ -1,1 +1,1 @@
-docker run --env GZCTF_FLAG=catctf{nemo_here} --name $(cat ./config/test-container-name) -p1338:80 $(cat ./config/dockerhub-image-name)
+docker run --env GZCTF_FLAG=catctf{nemo_here} --name $(cat ./config/test-container-name) -p1338:1338 $(cat ./config/dockerhub-image-name)
